@@ -1,0 +1,22 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "node chat bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon Server/index.js"
+  },
+  "author": "Paolo Drago",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
